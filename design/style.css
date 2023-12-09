@@ -1,33 +1,47 @@
 /* GENERAL (ici tu mets toutes les propriété que tu veux voir se répeter à l'identique sur des partie similaire ex: tous les liens , tous les h1 etc...)*/
-*{
+*
+{
     padding: 0;
     margin: 0;
 }
 
-body{
+body
+{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
-h1{
+h1
+{
     font-family: Creteround sans-serif;
     font-size: 45px;
     color: #444;
 }
 
-ul{
+h2
+{
+    color:#444 ;
+    font-size: 54px;
+}
+
+ul
+{
     list-style: none;
 }
 
-a{
+a
+{
     text-decoration: none;
     color: #444;
 }
-.orange{
+
+.orange
+{
     color: #ff7a00;
 }
 
-.wrapper{
+.wrapper
+{
     width: 940;
     margin: 0 auto;
     padding: 0 10px;
@@ -37,30 +51,67 @@ a{
 
 /*HEADER */
 
-header{
+header
+{
     height: 120px;
+    
 }
 
-header h1{
+header h1
+{
     float: left;
     margin-top: 32px;
 }
 
-header nav{
+header nav
+{
     float: right;
     margin-top: 50px;
 
-
 }
 
-header nav ul li{
-    display: inline-block;
+header nav ul li
+{
     float: left;
+    display: inline-block;
 }
 
-header ul li a {
+header ul li a
+{
     text-transform: uppercase;
     font-weight: bold;
     margin-right: 20px;
 
 }
+
+/* MAIN IMG */
+
+#main-img
+{
+    height: 580px;
+    background: url('/img/main.jpg') center ;
+ }
+
+ #main-img h2
+ {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    
+ }
+
+ .button1{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+
+
+ }
