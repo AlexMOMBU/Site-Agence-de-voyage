@@ -58,7 +58,11 @@ a
     padding: 0 10px;
 }
 
-
+.clear
+{
+    clear: both;
+    padding-top: 20px;
+}
 
 /*HEADER */
 
@@ -134,7 +138,9 @@ header ul li a
 
  /* SECTION ETAPE*/
 
- .etapes ul
+ 
+
+ #etapes ul
  {
     margin: 80px 0;
  }
@@ -148,6 +154,12 @@ header ul li a
     margin-right: 10px;
  }
 
+ #etapes h4{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
  #etapes p
  {
     margin-bottom: 20px;
@@ -155,22 +167,18 @@ header ul li a
  
 
  
-#etapes h4{
-    text-transform: uppercase;
-    margin-bottom: 20px;
 
-}
 
-.etape1 {
+#etape1 {
     background: url(/img/steps-icon-1.png) no-repeat top center ;
 }
 
- .etape2
+ #etape2
  {
     background: url(/img/steps-icon-2.png) no-repeat top center;
  }
 
- .etape3
+ #etape3
  {
     background: url(/img/steps-icon-3.png) no-repeat top center;
  }
