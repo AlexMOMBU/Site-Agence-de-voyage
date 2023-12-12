@@ -182,3 +182,30 @@ header ul li a
  {
     background: url(/img/steps-icon-3.png) no-repeat top center;
  }
+
+
+ /* PARTIE POSIBILITIES */
+
+#possibilities
+{
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+#possibilities article
+{
+width: 460px;
+height: 270px;
+float: left;
+border-radius: 10px;
+}
+
+#possibilities article :first-child
+{
+    margin-right: 20px;
+}
+
+.overlay
+{
+    
+}
